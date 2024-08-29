@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/intelli-travel-v2/static/css/main.e899cde2.css",
-    "main.js": "/intelli-travel-v2/static/js/main.7353cdd7.js",
+    "main.css": "/intelli-travel-v2/static/css/main.0c4466a7.css",
+    "main.js": "/intelli-travel-v2/static/js/main.9786c3da.js",
     "index.html": "/intelli-travel-v2/index.html",
-    "main.e899cde2.css.map": "/intelli-travel-v2/static/css/main.e899cde2.css.map",
-    "main.7353cdd7.js.map": "/intelli-travel-v2/static/js/main.7353cdd7.js.map"
+    "main.0c4466a7.css.map": "/intelli-travel-v2/static/css/main.0c4466a7.css.map",
+    "main.9786c3da.js.map": "/intelli-travel-v2/static/js/main.9786c3da.js.map"
   },
   "entrypoints": [
-    "static/css/main.e899cde2.css",
-    "static/js/main.7353cdd7.js"
+    "static/css/main.0c4466a7.css",
+    "static/js/main.9786c3da.js"
   ]
 }
