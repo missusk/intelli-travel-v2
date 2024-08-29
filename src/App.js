@@ -16,7 +16,7 @@ function App() {
               Intelli-Travel
             </Typography>
             <div className="nav-links">
-              <Button color="inherit" component={Link} to="/">Home</Button>
+              <Button color="inherit" component={Link} to="/intelli-travel-v2">Home</Button>
               <Button color="inherit" component={Link} to="/find-similar-hotels">Find Similar Hotels</Button>
               <Button color="inherit" component={Link} to="/search-hotels">Search Hotels</Button>
               <Button color="inherit" component={Link} to="/check-attractions">Check Attractions</Button>
@@ -28,7 +28,7 @@ function App() {
         <div className="content-wrap">
           <Container>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/intelli-travel-v2" element={<Home />} />
               <Route path="/find-similar-hotels" element={<FindSimilarHotels />} />
               <Route path="/search-hotels" element={<SearchHotels />} />
               <Route path="/check-attractions" element={<CheckAttractions />} />

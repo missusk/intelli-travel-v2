@@ -66,8 +66,8 @@ h6{
 
 /* Page Header */
 .page-header {
-  margin-top: 60px; 
-  margin-bottom: 40px; 
+  margin-top: 60px !important; 
+  margin-bottom: 40px !important; 
   color: #FF6F61;
   text-align: center;
 }
