@@ -27,7 +27,7 @@ function SearchHotels() {
     setLoading(true); 
     setSearched(true);
     try {
-      const response = await axios.post('http://localhost:5000/search', {
+      const response = await axios.post('https://intelli-travel-backend-6ee1ae1a7246.herokuapp.com/search', {
         city,
         star_rating: starRating,
         feature: facilities

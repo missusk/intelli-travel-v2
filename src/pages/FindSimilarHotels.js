@@ -26,7 +26,7 @@ function FindSimilarHotels() {
     setLoading(true);
     setSearched(true);
     try {
-      const response = await axios.post('http://localhost:5000/recommend', {
+      const response = await axios.post('https://intelli-travel-backend-6ee1ae1a7246.herokuapp.com/recommend', {
         hotel_name: hotelName,
         target_city: city
       });
