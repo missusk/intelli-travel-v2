@@ -1,38 +1,327 @@
-.App {
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0;
+  background-color: #2C2C34;
+  color: #ECEFF1;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #e8d7ff;
+}
+
+h6{
+  color: #061156;
+}
+
+/* Navbar Styles */
+#navbar {
+  background-color: #4DB6AC;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+}
+.css-10zsxzp-MuiTypography-root {
+  margin-top: 60px !important;
+  margin-bottom: 40px !important;
+  color: #FF6F61 !important;
+  text-align: center !important;
+}
+
+#navbar a {
+  color: #ECEFF1;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0px 15px;
+  text-decoration: none;
+  text-size-adjust: 100%;
+}
+
+#navbar a:hover {
+  color: #900c00;
+}
+
+#navbar .logo {
+  font-size: 1.75rem; 
+  margin-left: 20px;
+  flex-grow: 0;
+  font-family: fantasy;
+}
+
+
+#navbar .nav-links {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+  flex-grow: 1; 
+}
+
+/* Page Container */
+.container {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+/* Page Header */
+.page-header {
+  margin-top: 60px; 
+  margin-bottom: 40px; 
+  color: #FF6F61;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Search Section */
+#search-section {
+  padding: 20px;
+  background-color: #3E3E47;
+  border-radius: 10px;
+  margin-bottom: 20px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#search-section .MuiTextField-root .MuiInputBase-input {
+  color: #ECEFF1; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#search-section .MuiInputLabel-root {
+  color: #B0BEC5 !important;
+}
+
+#search-section .MuiButton-root {
+  width: 100%;
+  background-color: #FF4081;
+  color: #ECEFF1;
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+
+#search-section .MuiButton-root:hover {
+  background-color: #3EA99F;
+}
+
+/* Card Container */
+.card-container {
+  margin-top: 20px;
+}
+
+/* Hotel Card Styles */
+.MuiCard-root {
+  background-color: #3E3E47;
+  color: #ECEFF1;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.MuiTypography-root {
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+ul {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Button Styles */
+.MuiButton-root {
+  background-color: #FF4081;
+  color: #ECEFF1;
+  margin-top: 10px;
+  text-transform: none;
+}
+
+/* .MuiButton-root:hover {
+  background-color: #3EA99F;
+} */
+
+/* Miscellaneous Styles */
+a {
+  color: #FF6F61;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF8A80;
+}
+
+#hotel-card-container {
+  padding: 20px;
+  background-color: #3E3E47;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #3E3E47;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  color: #FF6F61;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.hero-quote {
+  color: #B0BEC5;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Feature Highlights */
+.feature-section {
+  margin-bottom: 60px;
+}
+
+.feature-card {
+  background-color: #2E2E3E;
+  color: #ECEFF1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-title {
+  color: #710900;
+  margin-bottom: 10px;
+}
+
+.feature-details {
+  margin-top: 20px; 
+  padding-top: 10px;
+  border-top: 1px solid #FF6F61;
+  color: #6b8491;
+}
+
+/* Get Started Button within Cards */
+.get-started-btn {
+  margin-top: 20px !important;
+  
+  background-color: #007BFF;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.get-started-btn:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Slideshow container */
+.slideshow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Behind the content */
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.slideshow-image.active {
+  opacity: 1;
+}
+
+/* Blurred Container */
+.blurred-container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1; /* Above the slideshow */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Feature Highlights */
+.feature-section {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+/* Metrics Section */
+.metrics-section {
+  margin-top: 60px;
+}
+
+.metric-card {
+  background-color: #3E3E47;
+  color: #ECEFF1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.metric-title {
+  color: #FF6F61;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.metric-subtitle {
+  color: #B0BEC5;
+}
+
+/* Ensure that the content takes up at least the full height of the viewport */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* The content of the page, which will take up the space between the header and footer */
+.content-wrap {
+  flex: 1;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #2C2C34;
+  color: #ECEFF1;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #FF6F61;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: #FF8A80;
 }
