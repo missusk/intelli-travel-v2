@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Intelli-Travel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Intelli-Travel is a web application designed to help users find and explore hotels and nearby attractions. The platform offers features like finding similar hotels, searching hotels by city, star rating, and features, and discovering attractions around selected hotels.
 
-## Available Scripts
+## Live Site
 
-In the project directory, you can run:
+You can visit the live site here: [Intelli-Travel](https://missusk.github.io/intelli-travel-v2/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Find Similar Hotels:** Easily discover hotels similar to your preferred choice.
+- **Search Hotels:** Search hotels by city, star rating, and additional features to find the best accommodation for your stay.
+- **Check Attractions:** Explore nearby attractions around your selected hotels, making trip planning easier.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend:** React.js, Material-UI, Axios
+- **Backend:** Flask, Pandas
+- **Deployment:** GitHub Pages (Frontend), Heroku (Backend)
+- **API Integration:** Unsplash API for background images
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ensure you have the following installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- Python
+- Git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    git clone https://github.com/missusk/intelli-travel-v2.git
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navigate to the frontend directory and install dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    cd intelli-travel-frontend
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Navigate to the backend directory and install dependencies:**
 
-## Learn More
+    ```bash
+    cd ../intelli-travel-backend
+    pip install -r requirements.txt
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Running the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Frontend
 
-### Code Splitting
+To start the frontend locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+#### Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To start the backend locally:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+python app.py
+```
 
 ### Deployment
+The frontend is deployed on GitHub Pages, and the backend is deployed on Heroku.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Contributing
+Feel free to open issues or submit pull requests if you have suggestions or improvements.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+This project is licensed under the MIT License.
