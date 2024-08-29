@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/intelli-travel-v2/static/css/main.e899cde2.css",
+    "main.js": "/intelli-travel-v2/static/js/main.e84d1082.js",
+    "index.html": "/intelli-travel-v2/index.html",
+    "main.e899cde2.css.map": "/intelli-travel-v2/static/css/main.e899cde2.css.map",
+    "main.e84d1082.js.map": "/intelli-travel-v2/static/js/main.e84d1082.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e899cde2.css",
+    "static/js/main.e84d1082.js"
+  ]
+}
